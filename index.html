@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="./Images/logo_PNG.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Box Icons Link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Remix Icons Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Bevlux Platform</title>
-    <style>
+    <!-- <style>
         /* Add your custom CSS styles here */
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +28,7 @@
             margin: 0;
             padding: 0;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -21,21 +37,300 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             color: #333;
         }
+
         p {
             color: #666;
         }
-    </style>
+    </style> -->
 </head>
-<body>
-    <div class="container">
-        <h1>Welcome to Bevlux Platform</h1>
-        <p>
-            Hi, I am Jaishankar, the creator of Bevlux Platform. Our platform focuses on DIY products, including IoT, home automation, and more. Explore our projects, tutorials, and community discussions!
-        </p>
-    </div>
-</body>
-</html>
 
+<body>
+
+
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">
+            <img src="./Images/logo_PNG.png" alt="Logo-pic">
+
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#application">Application</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+            </ul>
+
+            <div class="h-right">
+                 <!-- <a href="#" class="h-btn">
+                    <box-icon name='toggle-left' type='solid' ></box-icon>    
+                </a>  -->
+                <div class="bx bx-menu" id="menu-icon"></div> 
+            </div>
+        </a>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Welcome to Bevlux Platform</h1>
+            <p>Hi, This is from the creator of Bevlux Platform. Our platform focuses on DIY products, including IoT,
+                home automation, and more. Explore our projects, tutorials, and community discussions!</p>
+            <!-- <div class="button">
+                <a href="#" class="btn">Explore</a>
+                <a href="#" class="btn2"><span><i class="ri-play-mini-fill"></i></span>Watch View</a>
+            </div> -->
+        </div>
+        <!-- <div class="home-img">
+            <img src="images/hero.png" alt="dummy-pic">
+        </div> -->
+    </section>
+
+    <!-- Catogorie Section -->
+    <!-- <section class="categorie">
+        <div class="categorie-content">
+            <div class="row">
+                <img src="images/row1.png" alt="row-1-pic">
+                <h4>Tower</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/row2.png" alt="row-2-pic">
+                <h4>Tower</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/row3.png" alt="row-3-pic">
+                <h4>Tower</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/row4.png" alt="row-4-pic">
+                <h4>Tower</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/row5.png" alt="row-5-pic">
+                <h4>Tower</h4>
+            </div>
+
+            <div class="row">
+                <img src="images/row6.png" alt="row-6-pic">
+                <h4>Tower</h4>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+    <!-- <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="about-pic">
+        </div>
+
+        <div class="about-text">
+            <span>Our Experience</span>
+            <h2>Our Stories have Adventure</h2>
+            <p>We are experienced in bringing adventures to stay their journey, with all outdoor destinations in the
+                world as our specialities. start your adventure now! Nature has already called you!</p>
+            <div class="about-box">
+
+                <div class="box-in">
+                    <div class="main-box">
+                        <h5>12K+</h5>
+                        <h6>Success Journey</h6>
+                    </div>
+                </div>
+
+                <div class="box-in">
+                    <div class="main-box">
+                        <h5>16+</h5>
+                        <h6>Awards winnin</h6>
+                    </div>
+                </div>
+
+                <div class="box-in">
+                    <div class="main-box">
+                        <h5>20+</h5>
+                        <h6>Years of experience</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Destination Section -->
+    <!-- <section class="destination" id="destination">
+        <div class="center-text">
+            <h2>Destination</h2>
+            <p>Here are lots of interesting destinations to visit, but don't be confused-they're already grouped by
+                category.</p>
+        </div>
+        <div class="destination-content">
+            <div class="box">
+                <img src="images/img1.png" alt="img-1">
+                <h3>Mountain Hiking Tour</h3>
+                <h6>Mountain Hiking Tour</h6>
+                <div class="box-main">
+                    <div class="box-text">
+                        <h5>89$</h5>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#" class="bxx-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img2.png" alt="img-2">
+                <h3>The Grand Canyon, Arizona</h3>
+                <h6>Mountain Hiking Tour</h6>
+                <div class="box-main">
+                    <div class="box-text">
+                        <h5>89$</h5>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#" class="bxx-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img3.png" alt="img-1">
+                <h3>Machu Picchu, Peru</h3>
+                <h6>Machu Picchu, Peru</h6>
+                <div class="box-main">
+                    <div class="box-text">
+                        <h5>89$</h5>
+                    </div>
+                    <div class="box-btn">
+                        <a href="#" class="bxx-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!--Testimonial Section  -->
+    <!-- <section class="testimonial" id="testimonial">
+        <div class="testimonial-img">
+            <img src="images/tst.png" alt="test-pic">
+        </div>
+        <div class="testimonial-text">
+            <h2>A Customer said about us:</h2>
+
+            <div class="tst-in">
+                <p>Salty helped me a lot in finding the best place for our first outdoor adventure trip. They responded
+                    very quickly and gave me a detailed account of the place its history, As well as its best features
+                </p>
+                <div class="tst-star">
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                    <a href="#"><i class="ri-star-fill"></i></a>
+                </div>
+
+                <div class="tst-main">
+                    <div class="tst-text">
+                        <h4>Andrew Sharma</h4>
+                        <h6>Enterpreneur</h6>
+                    </div>
+                    <div class="tst-icon">
+                        <i class="ri-arrow-right-double-fill"></i>
+                    </div>
+                </div>
+            </div>
+    </section> -->
+
+    <!-- Cta Section -->
+    <!-- <section class="cta">
+        <div class="cta-content">
+            <h3>Let's start booking a room</h3>
+            <h6>We will contact you to confirm your booking</h6>
+            <form action="book">
+                <div class="input-box">
+                    <i class="ri-phone-fill"></i>
+                    <input type="tel" name="" placeholder="Your Number" id="">
+                </div>
+
+                <div class="input-box">
+                    <i class="ri-user-3-fill"></i>
+                    <input type="number" name="" placeholder="People" id="">
+                </div>
+                <a href="#" class="book-btn">Book Now</a>
+            </form>
+        </div>
+    </section> -->
+
+
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="footer-box">
+            <!-- <a href="#" class="footer-logo"> -->
+                <!-- <img src="images/Logo.png" alt="logo-pic"> -->
+            <!-- </a> -->
+            <p>Social Media's of  Bevlux</p>
+            <div class="social-link">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Projects</h3>
+            <a href="#">Download</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Applications</h3>
+            <a href="#">Download</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact us</h3>
+            <a href="#">Download</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+            <a href="#">Test</a>
+        </div>
+
+        <!-- <div class="footer-box">
+            <h3>Get App</h3>
+            <a href="#">Download</a>
+            <a href="#">Help Center</a>
+        </div> -->
+    </section>
+
+    <!-- End Content -->
+
+    <div class="end-content">
+        <div class="end-text">
+            <p>© Copyright Bevlux 2024</p>
+        </div>
+
+        <div class="end-img">
+            <img src="./Images/logo_PNG.png" alt="card-pic">
+        </div>
+
+    </div>
+
+
+
+    <!-- JavaScript Link -->
+    <script type="text/JavaScript" src="script.js"></script>
+</body>
+
+</html>
